@@ -1,0 +1,73 @@
+body {
+    font-family: Tahoma;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.picture {
+    display: flex;
+    gap: 30px;
+}
+
+.hero{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.subtitle {
+    text-align: flex-start;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding-left: 0px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+.title {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+img {
+    padding-bottom: 30px;
+    border-radius: 20%;
+}
+
+a {
+    font-size: 20px;
+}
+
+ol {
+    margin: 0;
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
